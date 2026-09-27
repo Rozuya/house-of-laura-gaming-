@@ -1,0 +1,76 @@
+{
+  "project": "House of Laura",
+  "description": "Fan game promotionnel - site vitrine et builds des episodes",
+  "version": "1.2.0",
+  "repo": "house-of-laura",
+  "author": "Rozuya",
+
+  "site": {
+    "dir": ".",
+    "entry": "index.html",
+    "include": [
+      "index.html",
+      "episode-1.html",
+      "episode-2.html",
+      "telechargement.html",
+      "404.html",
+      "robots.txt",
+      "sitemap.xml",
+      "manifest.webmanifest",
+      "assets/**/*"
+    ],
+    "required": [
+      "index.html",
+      "episode-1.html",
+      "episode-2.html",
+      "telechargement.html",
+      "404.html",
+      "robots.txt",
+      "sitemap.xml",
+      "manifest.webmanifest",
+      "assets/css/style.css",
+      "assets/js/main.js"
+    ],
+    "images": [
+      "assets/images/houseoflaura.png"
+    ]
+  },
+
+  "docs": {
+    "dir": "docs",
+    "include": [
+      "**/*"
+    ]
+  },
+
+  "episodes": [
+    {
+      "id": "episode-01",
+      "number": 1,
+      "title": "Le Signal Perdu",
+      "version": "1.2.0",
+      "build": "builds/episode-01/HouseOfLaura-EP1-v1.2.0.exe",
+      "size_min_mb": 50
+    }
+  ],
+
+  "downloads": {
+    "episode-01": "https://www.swisstransfer.com/dl/01a0e2c9-9ece-73c5-b1eb-caa874f8a18b"
+  },
+
+  "source": {
+    "enabled": true,
+    "dir": "source/episode-01"
+  },
+
+  "exclude": [
+    ".git/**",
+    "archive/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/*.zip",
+    "**/.gitkeep"
+  ]
+}

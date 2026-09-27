@@ -1,0 +1,112 @@
+==================================================================
+  House of Laura - Archive de distribution
+  Version globale : v1.2.0
+  Cree par        : Rozuya
+  Generee le      : 2026-09-27 14:24
+==================================================================
+
+MISE EN LIGNE (2 minutes)
+------------------------------------------------------------------
+  1. Cree un depot vide nomme  house-of-laura  sur github.com
+  2. En ligne de commande, dans ce dossier :
+
+       git init && git branch -M main && git add .
+       git commit -m "House of Laura v1.2.0"
+       git remote add origin https://github.com/TON-PSEUDO/house-of-laura.git
+       git push -u origin main
+
+  3. Settings > Pages > Source : branche  main , dossier  /  (racine)
+  4. Le site est en ligne sur :
+       https://TON-PSEUDO.github.io/house-of-laura/
+
+  ATTENTION : n'upload PAS le dossier builds/ depuis le site web de
+  GitHub, il contient des .exe de 100 Mo et le push sera refuse.
+  Utilise la ligne de commande ci-dessus : .gitignore fait le tri.
+
+LE SITE (multi-pages)
+------------------------------------------------------------------
+  index.html          Accueil
+  episode-1.html      Le Signal Perdu
+  episode-2.html      En preparation
+  telechargement.html Le seul bouton de telechargement du site
+  assets/             CSS, JS et images, partages par toutes les pages
+
+  Si tu ajoutes une page, declare-la dans project.json
+  (site.include et site.required), sinon build.py ne l'embarque pas.
+
+CONTENU DE CETTE ARCHIVE
+------------------------------------------------------------------
+  pages HTML  le site, a la racine : c'est ce que GitHub Pages sert.
+  assets/     Images et ressources du site.
+  builds/     Les executables des episodes (Windows 10/11).
+  source/     Le code source du jeu (JavaScript, audio).
+  docs/       La documentation (nom du depot, ajout d'un episode).
+  build.py    Le script qui a genere cette archive.
+
+EPISODES INCLUS
+------------------------------------------------------------------
+  [     OK] Episode 1 - Le Signal Perdu
+            version : v1.2.0   (95.6 Mo)
+            fichier : builds/episode-01/HouseOfLaura-EP1-v1.2.0.exe
+
+INVENTAIRE DES FICHIERS
+------------------------------------------------------------------
+      1.1 Ko  .gitignore
+      3.7 Ko  404.html
+      4.4 Ko  README.md
+     28.2 Ko  assets/css/style.css
+       636 o  assets/images/favicon.svg
+    549.8 Ko  assets/images/houseoflaura.png
+      5.2 Ko  assets/js/main.js
+     18.8 Ko  build.py
+     95.6 Mo  builds/episode-01/HouseOfLaura-EP1-v1.2.0.exe
+      5.5 Ko  docs/AJOUTER-EPISODE-2.md
+      5.4 Ko  docs/GITHUB-PAGES.md
+     12.5 Ko  episode-1.html
+      8.3 Ko  episode-2.html
+     14.1 Ko  index.html
+       493 o  manifest.webmanifest
+      1.4 Ko  project.json
+        23 o  robots.txt
+       913 o  sitemap.xml
+      3.8 Ko  source/episode-01/audio/manifest.js
+     16.5 Ko  source/episode-01/build/icon.ico
+      3.7 Ko  source/episode-01/electron/main.js
+      2.3 Ko  source/episode-01/index.html
+     10.6 Ko  source/episode-01/js/core/audio.js
+      9.4 Ko  source/episode-01/js/core/gfx.js
+     14.0 Ko  source/episode-01/js/core/input.js
+      5.6 Ko  source/episode-01/js/core/particles.js
+     23.5 Ko  source/episode-01/js/core/procmusic.js
+      8.7 Ko  source/episode-01/js/core/sfx.js
+      5.8 Ko  source/episode-01/js/core/util.js
+     23.4 Ko  source/episode-01/js/game/boss.js
+    102.6 Ko  source/episode-01/js/game/characters.js
+      8.0 Ko  source/episode-01/js/game/cutscene.js
+     12.2 Ko  source/episode-01/js/game/dialogue.js
+     20.9 Ko  source/episode-01/js/game/ending.js
+      5.4 Ko  source/episode-01/js/game/enemies.js
+     40.8 Ko  source/episode-01/js/game/entities.js
+     26.3 Ko  source/episode-01/js/game/main.js
+     15.2 Ko  source/episode-01/js/game/physics.js
+     14.8 Ko  source/episode-01/js/game/player.js
+     69.8 Ko  source/episode-01/js/game/props.js
+     17.6 Ko  source/episode-01/js/game/room.js
+      2.7 Ko  source/episode-01/js/game/save.js
+     84.2 Ko  source/episode-01/js/game/story.js
+     49.4 Ko  source/episode-01/js/game/themes.js
+     11.9 Ko  source/episode-01/js/game/title.js
+     40.2 Ko  source/episode-01/js/game/ui.js
+      1.3 Ko  source/episode-01/js/levels/builder.js
+     10.6 Ko  source/episode-01/js/levels/z1_maison.js
+     11.4 Ko  source/episode-01/js/levels/z2_quartier.js
+      9.6 Ko  source/episode-01/js/levels/z3_foret.js
+     13.3 Ko  source/episode-01/js/levels/z4_riviere.js
+      9.4 Ko  source/episode-01/js/levels/z5_ruines.js
+      3.0 Ko  source/episode-01/js/levels/z6_final.js
+      1.1 Ko  source/episode-01/package.json
+     12.0 Ko  telechargement.html
+------------------------------------------------------------------
+     96.9 Mo  TOTAL (55 fichiers, avant compression)
+
+Note : les executables necessitent Windows 10 ou 11.

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script>document.documentElement.classList.add('js')</script>
+    <noscript><style>.js [data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Épisode 1 — Le Signal Perdu | House of Laura par Rozuya</title>
+    <meta name="description" content="House of Laura, épisode 1 : Le Signal Perdu. Un jeu d'aventure 2D d'exploration et d'énigmes, créé par Rozuya.">
+    <meta name="author" content="Rozuya">
+    <meta property="og:title" content="Épisode 1 — Le Signal Perdu | House of Laura">
+    <meta property="og:description" content="Ce soir, Laura s'apprête à lancer un grand stream... mais quelque chose ne va pas se passer comme prévu.">
+    <meta property="og:image" content="assets/images/houseoflaura.png">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="House of Laura - Jeu d'aventure 2D par Rozuya">
+    <meta name="twitter:description" content="Fan game d'aventure 2D cree par Rozuya pour la streameuse House Of Laura.">
+    <meta name="twitter:image" content="https://votre-pseudo.github.io/houseoflaura/assets/images/houseoflaura.png">
+    <link rel="canonical" href="https://votre-pseudo.github.io/houseoflaura/episode-1.html">
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body class="flex flex-col" style="min-height:100vh">
+
+    <div class="bg-stage" aria-hidden="true">
+        <div class="bg-aurora" aria-hidden="true"></div>
+        <div class="bg-grid"></div>
+        <div class="bg-orb bg-orb--purple"></div>
+        <div class="bg-orb bg-orb--blue"></div>
+    </div>
+    <div class="bg-grain" aria-hidden="true"></div>
+
+    <a href="#contenu" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:px-4 focus:py-2 focus:rounded-lg focus:bg-[#12121a] focus:text-[#00f0ff]">
+        Aller au contenu
+    </a>
+
+    <!-- ================= EN-TÊTE ================= -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="brand">
+                    <span class="brand__mark" aria-hidden="true">🌸</span>
+                    <span class="brand__name text-gradient">HOUSE OF LAURA</span>
+                </a>
+
+                <nav aria-label="Navigation principale" class="nav-desktop font-gaming">
+                    <a href="index.html" class="nav-link">ACCUEIL</a>
+                    <a href="episode-1.html" aria-current="page" class="nav-link">ÉPISODE 1</a>
+                    <a href="episode-2.html" class="nav-link">ÉPISODE 2</a>
+                    <a href="telechargement.html" class="nav-link">TÉLÉCHARGER</a>
+                </nav>
+
+                <button id="menu-toggle" type="button" class="burger" aria-expanded="false"
+                        aria-controls="mobile-menu" aria-label="Ouvrir le menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <nav id="mobile-menu" aria-label="Navigation mobile" class="mobile-menu hidden font-gaming">
+            <div class="container" style="padding-block:.5rem">
+                <a href="index.html">ACCUEIL</a>
+                <a href="episode-1.html" aria-current="page">ÉPISODE 1</a>
+                <a href="episode-2.html">ÉPISODE 2</a>
+                <a href="telechargement.html">TÉLÉCHARGER</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= CONTENU ================= -->
+    <main id="contenu" class="container container--narrow">
+
+        <!-- ---------- TITRE ---------- -->
+        <section class="section-sm" style="text-align:center">
+            <p class="eyebrow" data-reveal>Épisode I</p>
+
+            <h1 class="font-gaming d1" data-reveal data-reveal-delay="80" style="margin:1rem 0 0">
+                <span style="color:#fff">LE SIGNAL </span><span class="text-gradient text-glow-purple">PERDU</span>
+            </h1>
+
+            <p class="lead-lg" data-reveal data-reveal-delay="160"
+               style="color:var(--muted);max-width:40rem;margin:1.5rem auto 0">
+                Un petit jeu d’aventure 2D fait pour la Streameuse
+                <strong style="color:#fff">House&nbsp;Of&nbsp;Laura</strong>.
+            </p>
+
+            <div data-reveal data-reveal-delay="220"
+                 style="display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;margin-top:2rem">
+                <span class="pill pill--blue">💻 PC — .EXE</span>
+                <span class="pill pill--purple">⌛ Épisode I</span>
+                <span class="pill">⌨️ Clavier + souris ou manette</span>
+                <span class="pill">🏷️ v1.2.0</span>
+            </div>
+        </section>
+
+        <!-- ---------- CAPTURE ---------- -->
+        <figure data-reveal style="margin:0">
+            <div class="shot">
+                <img src="assets/images/houseoflaura.png"
+                     alt="Écran-titre de House of Laura : le logo du jeu sur un ciel étoilé violet, avec Laura et Echo"
+                     width="1920" height="1080" fetchpriority="high" decoding="async">
+            </div>
+            <figcaption style="text-align:center;color:var(--faint);font-size:.85rem;margin-top:1rem">
+                House of Laura · Épisode I — Le Signal Perdu · v1.2.0
+            </figcaption>
+        </figure>
+
+        <!-- ---------- RÉSUMÉ ---------- -->
+        <section class="section-sm">
+            <div class="panel panel--accent" data-reveal style="padding:clamp(1.5rem,3vw,2.5rem)">
+                <h2 class="font-gaming d3" style="color:#fff;margin:0 0 1.5rem">Le résumé</h2>
+                <div class="stack">
+                    <p class="lead-lg" style="color:var(--text);margin:0">
+                        Ce soir, Laura s’apprête à lancer un grand stream avec toute la House…
+                        mais quelque chose ne va pas se passer comme prévu.
+                    </p>
+                    <p class="lead-lg" style="color:var(--text);margin:0">
+                        Après une étrange coupure, Laura découvre
+                        <strong style="color:var(--blue)">Écho</strong>, une petite présence capable
+                        de détecter des voix mystérieuses autour d’elle. Son objectif va alors être
+                        de comprendre ce qui se passe et de retrouver les personnes de la House.
+                    </p>
+                    <p class="lead-sm" style="color:var(--faint);font-style:italic;margin:0;
+                       border-top:1px solid var(--border);padding-top:1.5rem">
+                        Le jeu commence dans un environnement assez familier avant de progressivement
+                        emmener Laura dans des endroits beaucoup plus étranges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- AU PROGRAMME ---------- -->
+        <section class="section-sm">
+            <div data-reveal style="margin-bottom:2rem">
+                <h2 class="font-gaming d2" style="color:#fff;margin:0">Au programme</h2>
+            </div>
+
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem">
+                <div class="feature" data-reveal>
+                    <span class="feature__icon" aria-hidden="true">🔎</span>
+                    <p style="margin:0">Exploration de différents environnements</p>
+                </div>
+                <div class="feature" data-reveal data-reveal-delay="60">
+                    <span class="feature__icon" aria-hidden="true">🧩</span>
+                    <p style="margin:0">Énigmes et mécanismes à résoudre</p>
+                </div>
+                <div class="feature" data-reveal data-reveal-delay="120">
+                    <span class="feature__icon" aria-hidden="true">🏃</span>
+                    <p style="margin:0">Phases de plateforme et de déplacement</p>
+                </div>
+                <div class="feature" data-reveal data-reveal-delay="180">
+                    <span class="feature__icon" aria-hidden="true">⚡</span>
+                    <p style="margin:0">Quelques passages plus mouvementés</p>
+                </div>
+                <div class="feature" data-reveal data-reveal-delay="240">
+                    <span class="feature__icon" aria-hidden="true">💬</span>
+                    <p style="margin:0">Des personnages et dialogues tout au long de l’aventure</p>
+                </div>
+                <div class="feature" data-reveal data-reveal-delay="300">
+                    <span class="feature__icon" aria-hidden="true">📻</span>
+                    <p style="margin:0">Et surtout… Écho et le mystérieux signal perdu</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- AVERTISSEMENTS ---------- -->
+        <section class="section-sm stack">
+            <div class="notice notice--warning" data-reveal>
+                <span aria-hidden="true" style="font-size:1.35rem;line-height:1.3">⚠️</span>
+                <p style="margin:0">
+                    <strong>Aucun spoil :</strong> je ne mets volontairement aucun spoil ici,
+                    plusieurs éléments sont faits pour être découverts directement en jouant !
+                </p>
+            </div>
+
+            <div class="notice notice--info" data-reveal>
+                <span aria-hidden="true" style="font-size:1.35rem;line-height:1.3">🔥</span>
+                <p style="margin:0">
+                    <strong>Appel aux testeurs :</strong> je cherche des personnes pour tester
+                    l’épisode 1 et me donner leur avis !
+                </p>
+            </div>
+        </section>
+
+        <!-- ---------- RENVOI ---------- -->
+        <section class="section-sm" style="text-align:center">
+            <p class="lead-sm" data-reveal style="color:var(--muted);margin:0 0 1.5rem">Prêt à jouer ?</p>
+            <div data-reveal data-reveal-delay="100"
+                 style="display:flex;flex-wrap:wrap;gap:1rem;justify-content:center">
+                <a href="telechargement.html" class="btn-neon">
+                    Obtenir l’épisode 1 <span aria-hidden="true">→</span>
+                </a>
+                <a href="episode-2.html" class="btn-ghost">Voir l’épisode 2</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= PIED DE PAGE ================= -->
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <a href="index.html#createur" class="footer-credit">
+                <span class="monogram" aria-hidden="true">R</span>
+                <span class="footer-credit__text">
+                    <span class="footer-credit__label">Créé par</span>
+                    <span class="footer-credit__name">ROZYA</span>
+                </span>
+            </a>
+
+            <nav aria-label="Navigation de pied de page" class="footer-nav font-gaming">
+                <a href="index.html">Accueil</a>
+                <a href="episode-1.html">Épisode 1</a>
+                <a href="episode-2.html">Épisode 2</a>
+                <a href="telechargement.html">Téléchargement</a>
+            </nav>
+
+            <p class="footer-meta">
+                © <span data-year>2026</span> House of Laura — Jeu promotionnel non officiel.<br>
+                Fait avec 💜 par <strong style="color:var(--text)">Rozuya</strong>
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
